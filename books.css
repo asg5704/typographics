@@ -1,0 +1,57 @@
+.bookseller--items {
+  min-height: 200px;
+  height: 100%;
+}
+.book--banner {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.book--fair p {
+  margin-top: 19px;
+}
+.booksellers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h4 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 9px;
+  background-color: var(--altred);
+  color: #fff;
+  font-size: 1.34rem;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  letter-spacing: 3.3px;
+}
+
+
+@media screen and (min-width: 900px) {
+  .bookseller--items {
+    width: 50%;
+    padding: 10px;
+  }
+  .bookseller--content {
+    padding: 9px;
+  }
+
+  .book--fair {
+    margin: 50px auto;
+  }
+  .book--fair h3 {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  .dates {
+    font-weight: bold;
+    padding-right: 19px;
+  }
+}
