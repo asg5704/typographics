@@ -22,8 +22,8 @@ h4 {
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding: 9px;
-  background-color: var(--altred);
-  color: #fff;
+  background-color: var(--teal);
+  color: #333;
   font-size: 1.34rem;
   margin-bottom: 9px;
   text-transform: uppercase;

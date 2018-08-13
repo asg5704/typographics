@@ -1,8 +1,7 @@
 h1 {
   text-align: center;
   font-family: 'Poiret One', Arial, Helvetica, sans-serif;
-  color: #000;
-
+  color: #333;
 }
 
 .content {
@@ -25,12 +24,12 @@ p {
   margin-bottom: 9px;
 }
 a {
-  color: var(--red);
+  color: var(--darkblue);
 }
 .content img {
   width: 120px;
   height: 120px;
-  filter: brightness(0.2) sepia(2.5) hue-rotate(295.2deg) saturate(20) grayscale(30%) drop-shadow(2px 2px 4px rgba(12,12,13,0.1));
+  filter: brightness(0.4) sepia(0.1) hue-rotate(175.2deg) saturate(50) grayscale(70.9%) drop-shadow(2px 2px 4px rgba(12,12,13,0.1));
 }
 
 @media screen and (min-width: 900px) {

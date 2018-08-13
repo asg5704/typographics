@@ -1,8 +1,6 @@
 :root {
-    --red: #ff0036;
-    --blue: #317beb;
-    --altred: #c6183d;
-    --darkred: #8b0f2a;
+    --darkblue: #415C6C;
+    --teal: #ACC7CD;
   }
 
   html {
@@ -19,7 +17,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: #EBF5EE;
     font-size: 18px;
     line-height: 1.4;
   }
@@ -41,7 +39,7 @@
 
   section {
     width: 100%;
-    border-left: 20px solid var(--altred);
+    border-left: 20px solid var(--darkblue);
     margin: 3.3px auto;
     min-height: 150px;
     display: flex;
@@ -49,14 +47,14 @@
     justify-content: center;
     padding: 9px;
     text-align: left;
-    background-color: var(--red);
+    background-color: var(--darkblue);
   }
   a {
     text-decoration: none;
   }
   section:hover {
-    background-color: var(--altred);
-    border-left: 20px solid var(--darkred);
+    background-color: var(--darkblue);
+    border-left: 20px solid var(--teal);
   }
   section h2 {
     font-family: 'Poiret One', Arial, Helvetica, sans-serif;
@@ -72,7 +70,7 @@
     letter-spacing: 2.1px;
     margin: 0;
     padding: 0;
-    color: var(--altred);
+    color: var(--darkblue);
     padding-bottom: 0;
   }
 
@@ -81,8 +79,8 @@
   }
 
   .active {
-    background-color: var(--altred);
-    border-left: 20px solid var(--darkred);
+    background-color: var(--darkblue);
+    border-left: 20px solid var(--teal);
   }
   .logo {
     display: block;
@@ -105,7 +103,7 @@
     font-weight: bold;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    color: var(--darkred);
+    color: var(--teal);
   }
   h4 {
     margin: 0 auto 19px;
@@ -154,7 +152,7 @@
       width: 276px;
       height: 100%;
       position: fixed;
-      background-color: var(--red);
+      background-color: var(--darkblue);
       box-shadow: 2px 2px 4px rgba(12,12,13,0.1);
     }
     aside a section {
@@ -162,7 +160,7 @@
     }
     section {
       margin: 0 auto;
-      outline: 0.75px inset var(--altred);
+      outline: 0.75px inset var(--darkblue);
     }
     section h2 {
       font-size: 2.2rem;
@@ -173,7 +171,7 @@
     }
     .top--logo:hover {
       background-color: transparent;
-      border-left: 20px solid var(--altred);
+      border-left: 20px solid var(--darkblue);
     }
     .nav--logo {
       width: 135px;

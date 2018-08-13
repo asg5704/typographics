@@ -7,8 +7,8 @@
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding: 9px;
-  background-color: var(--altred);
-  color: #fff;
+  background-color: var(--teal);
+  color: #333;
   font-size: 1.34rem;
   margin-bottom: 9px;
   text-transform: uppercase;
@@ -19,7 +19,7 @@ p.card--title {
   z-index: 5;
   padding-left: 5px;
   top: 2.5px;
-  color: #fff;
+  color: #333;
   margin: 0 auto;
   width: 100%;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -37,8 +37,7 @@ p.card--title {
   font-size: 1.2rem;
   color: #fff;
   font-family: 'Poiret One', Arial, Helvetica, sans-serif;
-  background-color: var(--altred);
-  background: linear-gradient(to right, var(--red),  var(--altred), var(--darkred));
+  background-color: #CA054D;
   outline: none;
   border: none;
   border-radius: 2px;
@@ -56,7 +55,7 @@ ul {
 
 .times {
   font-family: 'Poiret One', Arial, Helvetica, sans-serif;
-  font-variant-caps:all-small-caps;
+  font-variant-caps: all-small-caps;
   font-size: 1.615rem;
 }
 
@@ -75,8 +74,8 @@ ul {
 .workshop--header, .tour--header {
   font-size: 2rem;
   font-family: 'Poiret One', Arial, Helvetica, sans-serif;
-  background: linear-gradient(-180deg, var(--red), var(--altred), var(--darkred));
-  color: #fff;
+  background: var(--teal);
+  color: #333;
   margin-top: 0;
   padding: 15px;
   border-bottom-right-radius: 7px;
@@ -183,7 +182,7 @@ p, li {
     font-size: 1.615rem;
   }
   .workshop--header h4 {
-    margin: 0;
+    margin: 0 auto 9px;
     padding: 0;
   }
   .schedule--btn {
